@@ -1,0 +1,183 @@
+h2{
+    font-family: consolas;
+}
+p{
+    font-family: consolas;
+}
+
+#ANIMATIONTABLE{
+    background-image: url(AboutImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.PYTHON {
+    offset-path: path('M 100 170 A 160 50 0 1 0 100 169 z');
+    offset-rotate: 0deg;
+    animation: movePYTHON 10s linear  infinite  reverse;
+}
+@keyframes movePYTHON {
+    0%{opacity: 0;
+        offset-distance: 0%;
+    }
+    3%{
+        opacity: 1;
+        offset-distance: 3%; 
+    }
+    50% { 
+        offset-distance: 50%;
+        opacity: 1;
+      }
+      55%{
+          opacity: 0;
+          offset-distance: 55%;
+      }
+      
+      100%{
+        opacity: 0;
+        offset-distance: 100%;
+    }
+    }
+.ANGULAR {
+    offset-path: path('M 305 390 A 200 50 50 1 0 305 391 z');
+    offset-rotate: 0deg;
+    animation: moveANGULAR 10s linear  infinite ;
+}
+@keyframes moveANGULAR {
+    0%{opacity: 0;
+        offset-distance: 0%;
+    }
+    3%{
+        opacity: 1;
+        offset-distance: 3%; 
+    }
+    50% { 
+        offset-distance: 50%;
+        opacity: 1;
+      }
+      55%{
+          opacity: 0;
+          offset-distance: 53%;
+      }
+      
+      100%{
+        opacity: 0;
+        offset-distance: 100%;
+    }
+}
+
+.SCHEME {
+    offset-path: path('M-120 330 A 155 50 -50 1 0 -120 329 z');
+    offset-rotate: 0deg;
+    animation: moveSCHEME 10s linear  infinite reverse;
+}
+@keyframes moveSCHEME {
+    0%{opacity: 0;
+        offset-distance: 0%;
+    }
+    3%{
+        opacity: 1;
+        offset-distance: 3%; 
+    }
+    50% { 
+        offset-distance: 50%;
+        opacity: 1;
+      }
+      55%{
+          opacity: 0;
+          offset-distance: 55%;
+      }
+      
+      100%{
+        opacity: 0;
+        offset-distance: 100%;
+    }
+    }
+.HTML {
+        offset-path: path('M -15 170 A 155 50 0 1 0 -15 169 z');
+        offset-rotate: 0deg;
+        animation: moveHTML 10s linear  infinite reverse;
+    }
+    @keyframes moveHTML {
+        0%{
+            opacity: 0;
+            offset-distance: 0%;
+        }
+        50% { 
+            offset-distance: 0%;
+            opacity: 0;
+          }
+          55%{
+              opacity: 1;
+              offset-distance: 5%;
+          }
+          95%{
+              offset-distance: 50%;
+              opacity: 1;
+          }
+          100%{
+            opacity: 0;
+            offset-distance: 55%;
+        }
+        }
+    .REACT {
+        offset-path: path('M 380 394 A 195 50 50 1 0 380 395 z');
+        offset-rotate: 0deg;
+        animation: moveREACT 10s linear  infinite;
+    }
+    @keyframes moveREACT {
+        0%{
+            opacity: 0;
+            offset-distance: 0%;
+        }
+        50% { 
+            offset-distance: 0%;
+            opacity: 0;
+          }
+          55%{
+              opacity: 1;
+              offset-distance: 5%;
+          }
+          93%{
+              offset-distance: 49%;
+              opacity: 1;
+          }
+          
+          96%{
+            offset-distance: 51%;
+            opacity: 0;
+        }
+          100%{
+            opacity: 0;
+            offset-distance: 55%;
+        }
+        }
+    
+    .JAVASCRIPT {
+        offset-path: path('M25 330 A 155 50 -50 1 0 25 329 z');
+        offset-rotate: 0deg;
+        animation: moveJS 10s linear  infinite reverse;
+    }
+    @keyframes moveJS {
+        0%{
+            opacity: 0;
+            offset-distance: 0%;
+        }
+        50% { 
+            offset-distance: 0%;
+            opacity: 0;
+          }
+          55%{
+              opacity: 1;
+              offset-distance: 5%;
+          }
+          95%{
+              offset-distance: 50%;
+              opacity: 1;
+          }
+          100%{
+            opacity: 0;
+            offset-distance: 55%;
+        }
+        }
